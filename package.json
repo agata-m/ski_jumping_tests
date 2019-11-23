@@ -1,0 +1,24 @@
+{
+  "name": "ski_jumping_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js -b",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agata-m/ski_jumping_tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agata-m/ski_jumping_tests/issues"
+  },
+  "homepage": "https://github.com/agata-m/ski_jumping_tests#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}

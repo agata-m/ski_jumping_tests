@@ -3,9 +3,10 @@ const calculateStylePoints = require('../calculateStylePoints/calculateStylePoin
 
 const calculateTotalPoints = (distance, hillSize, kPoint, styleNotes, windFactor, gateFactor) => {
     const distancePoints = calculateDistancePoints(distance, hillSize, kPoint);
-    const stylePoints = calculateStylePoints(styelNotes);
+    const stylePoints = calculateStylePoints(styleNotes);
 
-    return distancePoints + stylePoints + windFactor + gateFactor;
+    const finalPoints = distancePoints + stylePoints + gateFactor + windFactor;
+    return finalPoints.toFixed(2);
 }
 
 module.exports = calculateTotalPoints;

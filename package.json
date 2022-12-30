@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/agata-m/ski_jumping_tests#readme",
   "devDependencies": {
-    "mocha": "^6.2.2"
+    "mocha": "^10.2.0"
   }
 }
